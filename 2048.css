@@ -1,0 +1,37 @@
+body {
+  text-align: center
+}
+table, th, td {
+  margin: 5px auto;
+}
+
+table {
+  z-index: 1;
+}
+
+th {
+  margin-bottom: 15px; 
+}
+th:last-child {
+  margin-bottom: 0; 
+}
+th:after {
+  content: "";
+  display: block;
+  clear: both; 
+}
+
+td {
+  font-size: 20px;
+  color: #776E65;
+  width: 50px;
+  height: 50px;
+  margin-right: 5px;
+  float: left;
+  border-radius: 3px;
+  text-align: center;
+  background: rgba(238, 228, 218, 0.35); 
+}
+td:last-child {
+  margin-right: 0; 
+}
